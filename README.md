@@ -1,7 +1,6 @@
 ---
 title: Simple NFT Minting DApp on Flow
 description: Minimalistic NFT DApp on Flow Testnet with React & Solidity
-sidebar_position: 5
 keywords:
   - ERC721
   - Flow Testnet Blockchain
