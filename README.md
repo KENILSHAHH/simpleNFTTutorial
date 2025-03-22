@@ -2,11 +2,11 @@
 title: Simple NFT Minting DApp on Flow
 description: Minimalistic NFT DApp on Flow Testnet with React & Solidity
 keywords:
-  - ERC721
-  - Flow Testnet Blockchain
-  - Solidity & OpenZeppelin
-  - React and Solidity Fullstack Dapp
-  - Non Fungible Tokens (NFTs)
+   ERC721,
+   Flow Testnet Blockchain,
+   Solidity & OpenZeppelin,
+   React and Solidity Fullstack Dapp,
+   Non Fungible Tokens (NFTs)
 ---
 
 # Title
