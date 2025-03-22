@@ -1,12 +1,13 @@
 ---
-title: Title, shorten if necessary, will be on sidebar
-description: A one sentence description.
+title: Simple NFT Minting DApp on Flow
+description: Minimalistic NFT DApp on Flow Testnet with React & Solidity
 sidebar_position: 5
 keywords:
-  - keywords
-  - describing
-  - the main topics
-  - cursor is great at this
+  - ERC721
+  - Flow Testnet Blockchain
+  - Solidity & OpenZeppelin
+  - React and Solidity Fullstack Dapp
+  - Non Fungible Tokens (NFTs)
 ---
 
 # Title
