@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+---
+title: Title, shorten if necessary, will be on sidebar
+description: A one sentence description.
+sidebar_position: 5
+keywords:
+  - keywords
+  - describing
+  - the main topics
+  - cursor is great at this
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Title
 
-## Available Scripts
+1-2 Paragraphs describing what the tutorial will teach, why someone might learn it, and if possible, a link to a live version of the app demoing the techniques and content taught.
 
-In the project directory, you can run:
+## Objectives
 
-### `npm start`
+After completing this guide, you'll be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 3-5 appropriate level Bloom's taxonomy verb objectives
+- Don't wordsmith these
+- It's ok of they're repetitive
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+### Next.js and Modern Frontend Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This tutorial uses [Next.js]. You don't need to be an expert, but it's helpful to be comfortable with development using a current React framework. You'll be on your own to select and use a package manager, manage Node versions, and other frontend environment tasks. If you don't have your own preference, you can just follow along with us and use [Yarn].
 
-### `npm run build`
+## Part 1
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Text can go here.  Usually it will be either an introduction to a long section with subsections, or a short section with no subsections that doesn't fit under a higher level.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Subsection 1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Divide each part into appropriate categories.
 
-### `npm run eject`
+**Avoid h4 and above**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Part 2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+More text goes here
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Conclusion
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In this tutorial, you ...
 
-## Learn More
+Now that you have completed the tutorial, you should be able to:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Copy/paste the Objectives from above here
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(OPTIONAL) Now that you've completed this tutorial, you're ready to...
 
-### Code Splitting
+<!-- Relative links, will not render on page -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Cadence]: https://cadence-lang.org/docs
+[Next.js]: https://nextjs.org/docs/app/getting-started/installation
+[Yarn]: https://yarnpkg.com
