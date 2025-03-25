@@ -11,6 +11,10 @@ contract SimpleNFT is ERC721 {
         tokenCounter = 0;
     }
 
+//   - Allow **public minting** (one NFT per wallet).
+//   - Have a **fixed supply of 5 NFTs**.
+//   - Cost **0.01 ETH per mint**.
+
     function mintNFT(address recipient) public payable {
         require(tokenCounter < 5, "Token limit reached");
         require(msg.value == 0.01 ether, "Incorrect amount sent");
@@ -19,6 +23,3 @@ contract SimpleNFT is ERC721 {
         tokenCounter++;
     }
 }
-//   - Allow **public minting** (one NFT per wallet).
-//   - Have a **fixed supply of 5 NFTs**.
-//   - Cost **0.01 ETH per mint**.
