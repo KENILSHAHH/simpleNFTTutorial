@@ -15,7 +15,7 @@ contract SimpleNFT is ERC721 {
     function getTokenURI() public view returns (string memory) {
         return baseURI;
     }
-
+    
     function mintNFT(address recipient) public payable {
         require(tokenCounter < 5, "Token limit reached");
         require(msg.value == 0.01 ether, "Incorrect amount sent");

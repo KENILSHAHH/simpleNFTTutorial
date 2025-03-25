@@ -1,7 +1,5 @@
 /** @format */
 
-'use client';
-
 import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import NFTJson from './artifacts/contracts/simpleNFT.sol/SimpleNFT.json';
