@@ -7,19 +7,24 @@ keywords:
    Solidity & OpenZeppelin,
    React and Solidity Fullstack Dapp,
    Non Fungible Tokens (NFTs)
+   Fullstack NFT Dapp
 ---
 
 # Title
 
-1-2 Paragraphs describing what the tutorial will teach, why someone might learn it, and if possible, a link to a live version of the app demoing the techniques and content taught.
+Building a Fullstack NFT Dapp on Flow EVM Testnet from scratch using Solidity and Hardhat for Smart Contracts, EthersJS & ReactJS
+
+This tutorial will guide you through building a fullstack NFT DApp on the Flow EVM testnet. You will learn how to deploy smart contracts using Hardhat, interact with them using Ethers.js, and build a frontend using ReactJS. By the end of this tutorial, you will have a working NFT DApp that allows users to mint and manage their NFTs.
 
 ## Objectives
 
 After completing this guide, you'll be able to:
 
-- 3-5 appropriate level Bloom's taxonomy verb objectives
-- Don't wordsmith these
-- It's ok of they're repetitive
+- Deploy and interact with smart contracts on the Flow EVM testnet using Hardhat.
+- Use Ethers.js to interact with the blockchain from a ReactJS frontend.
+- Build a simple frontend to display and interact with NFTs.
+- Implement wallet connectivity and transactions.
+- Understand the basics of NFT standards and smart contract development.
 
 ## Prerequisites
 

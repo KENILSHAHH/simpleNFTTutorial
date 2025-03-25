@@ -10,9 +10,6 @@ contract SimpleNFT is ERC721 {
     constructor() ERC721("SimpleNFT", "SNFT") {
         tokenCounter = 0;
     }
-    function _baseURI() internal pure override returns (string memory) {
-        return "https://ipfs.io/ipfs/";
-    }
 
     function mintNFT(address recipient) public payable {
         require(tokenCounter < 5, "Token limit reached");
