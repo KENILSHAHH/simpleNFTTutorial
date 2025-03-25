@@ -7,8 +7,7 @@ import { ethers } from 'ethers';
 import NFTJson from './artifacts/contracts/simpleNFT.sol/SimpleNFT.json';
 import { Loader2, Wallet, Sparkles, ExternalLink } from 'lucide-react';
 
-const CONTRACT_ADDRESS = '0xD8a47Da70D7E828e01fDC4F959fAB5aA52e6fF4b';
-const IMAGE_URI = 'https://cryptologos.cc/logos/flow-flow-logo.png';
+const CONTRACT_ADDRESS = '0xE6D66A08F0C4A6A80D05FDdD7Bdf6dFda023422F';
 
 export default function NFTMint() {
   const [account, setAccount] = useState(null);
@@ -18,6 +17,7 @@ export default function NFTMint() {
   const [isConnecting, setIsConnecting] = useState(false);
   const [isMinting, setIsMinting] = useState(false);
   const [mintSuccess, setMintSuccess] = useState(false);
+  const [IMAGE_URI, setImageURI] = useState(null);
 
   useEffect(() => {
     if (window.ethereum) {
@@ -25,6 +25,22 @@ export default function NFTMint() {
       setProvider(web3Provider);
     }
   }, []);
+
+  useEffect(() => {
+    const fetchBaseURI = async () => {
+      if (contract) {
+        try {
+          const baseURI = await contract.getTokenURI();
+          console.log(baseURI); // Adjust method name based on your contract
+          setImageURI(baseURI);
+        } catch (error) {
+          console.error('Error fetching baseURI:', error);
+        }
+      }
+    };
+
+    fetchBaseURI();
+  }, [contract]);
 
   const connectWallet = async () => {
     if (!provider) return;
@@ -35,7 +51,7 @@ export default function NFTMint() {
       setAccount(address);
       const nftContract = new ethers.Contract(
         CONTRACT_ADDRESS,
-        NFTJson,
+        NFTJson.abi,
         signer
       );
       setContract(nftContract);
@@ -44,6 +60,16 @@ export default function NFTMint() {
       console.error('Connection failed', error);
     } finally {
       setIsConnecting(false);
+    }
+  };
+
+  const getTokenURI = async () => {
+    if (!contract) return;
+    try {
+      const tokenURI = await contract.get();
+      setImageURI(tokenURI);
+    } catch (error) {
+      console.error('Fetching token URI failed', error);
     }
   };
 
@@ -91,7 +117,10 @@ export default function NFTMint() {
           <div className="flex items-center justify-center mb-6">
             <div className="relative">
               <img
-                src={IMAGE_URI || '/placeholder.svg'}
+                src={
+                  'https://cryptologos.cc/logos/flow-flow-logo.png' ||
+                  '/placeholder.svg'
+                }
                 alt="NFT Logo"
                 className="relative w-20 h-20 rounded-full border-2 border-white p-1 bg-black"
               />

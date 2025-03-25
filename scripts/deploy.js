@@ -7,9 +7,9 @@ async function main() {
   const [deployer] = await ethers.getSigners();
 
   console.log('Deploying contract with the account:', deployer.address);
-
+  const NFTImage = 'https://cryptologos.cc/logos/flow-flow-logo.png';
   const SimpleNFT = await ethers.getContractFactory('SimpleNFT');
-  const simpleNFT = await SimpleNFT.deploy();
+  const simpleNFT = await SimpleNFT.deploy(NFTImage);
 
   await simpleNFT.waitForDeployment();
   const contractAddres = await simpleNFT.getAddress();
