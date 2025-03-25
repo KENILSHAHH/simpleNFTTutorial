@@ -4,12 +4,11 @@
 
 import { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
-import IMageNFT from './SimpleNft.json';
+import NFTJson from './artifacts/contracts/simpleNFT.sol/SimpleNFT.json';
 import { Loader2, Wallet, Sparkles, ExternalLink } from 'lucide-react';
 
 const CONTRACT_ADDRESS = '0xD8a47Da70D7E828e01fDC4F959fAB5aA52e6fF4b';
 const IMAGE_URI = 'https://cryptologos.cc/logos/flow-flow-logo.png';
-const ABI = IMageNFT;
 
 export default function NFTMint() {
   const [account, setAccount] = useState(null);
@@ -34,7 +33,11 @@ export default function NFTMint() {
       const signer = await provider.getSigner();
       const address = await signer.getAddress();
       setAccount(address);
-      const nftContract = new ethers.Contract(CONTRACT_ADDRESS, ABI, signer);
+      const nftContract = new ethers.Contract(
+        CONTRACT_ADDRESS,
+        NFTJson,
+        signer
+      );
       setContract(nftContract);
       fetchNFTs(address, nftContract);
     } catch (error) {
@@ -103,7 +106,7 @@ export default function NFTMint() {
             <button
               onClick={connectWallet}
               disabled={isConnecting}
-              className="w-full py-3 px-4 flex items-center justify-center gap-2 bg-black hover:bg-gray-900 rounded-xl text-white font-medium transition-all duration-200 shadow-lg disabled:opacity-70 disabled:cursor-not-allowed border border-white">
+              className="w-full py-3 px-4 flex items-center justify-center gap-2 bg-white hover:bg-gray-100 rounded-xl text-black font-medium transition-all duration-200 shadow-lg disabled:opacity-70 disabled:cursor-not-allowed border border-white">
               {isConnecting ? (
                 <>
                   <Loader2 className="w-5 h-5 animate-spin" />
@@ -127,9 +130,9 @@ export default function NFTMint() {
               disabled={!account || isMinting}
               className={`w-full py-3 px-4 flex items-center justify-center gap-2 rounded-xl font-medium transition-all duration-200 shadow-lg border ${
                 mintSuccess
-                  ? 'bg-green-600 hover:bg-green-500 border-white'
-                  : 'bg-black hover:bg-gray-900 border-white'
-              } disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-800 disabled:border-gray-600`}>
+                  ? 'bg-green-600 hover:bg-green-500 border-white text-white'
+                  : 'bg-white hover:bg-gray-100 border-white text-black'
+              } disabled:opacity-70 disabled:cursor-not-allowed disabled:bg-gray-300 disabled:text-gray-600 disabled:border-gray-300`}>
               {isMinting ? (
                 <>
                   <Loader2 className="w-5 h-5 animate-spin" />
