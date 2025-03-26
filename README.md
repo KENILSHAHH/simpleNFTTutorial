@@ -28,7 +28,7 @@ After completing this guide, you'll be able to:
 - Implement wallet connectivity and transactions.
 - Understand the basics of NFT standards and smart contract development.
 
-# Prerequisites
+## Prerequisites
 
 - [NodeJS](https://nodejs.org/) installed on your machine.  
 - [MetaMask](https://metamask.io/) or another [Ethereum wallet](https://ethereum.org/en/wallets/find-wallet/) installed in your browser for wallet connectivity.  
@@ -46,12 +46,10 @@ After completing this guide, you'll be able to:
 
 ## Part 1 - Building ERC721 smart contract using Solidity and Hardhat
 
-In this part, you will learn how to create an ERC721 smart contract using Solidity and Hardhat. You will deploy the smart contract to the Flow EVM testnet using Ethers.
+In this part, you will learn how to create an ERC721 [Non Fungible Token Standard] smart contract using Solidity and Hardhat. You will deploy the smart contract to the Flow EVM testnet using Ethers.
 
 
 ### Installing And Initializing our Hardhat Project 
-
-Divide each part into appropriate categories. 
 
  Initialize a new Node.js project and install the required dependencies:
 
@@ -70,8 +68,8 @@ npm install --save-dev hardhat
 npx hardhat init 
 ```
 
-Create an empty hardhat.config.js file in the root directory of your project:
-/var/folders/t9/dqhmyvgx6253j6hdmwp29v640000gn/T/TemporaryItems/NSIRD_screencaptureui_q1XW48/Screenshot 2025-03-25 at 11.40.05 PM.png
+Create an empty *hardhat.config.js* file in the root directory of your project:
+
 
 Create a new directory for your smart contracts and create a new Solidity file for your ERC721 contract:
 
