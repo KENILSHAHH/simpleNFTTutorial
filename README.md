@@ -28,7 +28,11 @@ After completing this guide, you'll be able to:
 - Implement wallet connectivity and transactions.
 - Understand the basics of NFT standards and smart contract development.
 
+# Prerequisites
 
+- [NodeJS](https://nodejs.org/) installed on your machine.  
+- [MetaMask](https://metamask.io/) or another [Ethereum wallet](https://ethereum.org/en/wallets/find-wallet/) installed in your browser for wallet connectivity.  
+- Basic knowledge of [Solidity](https://soliditylang.org/), [Ethereum](https://ethereum.org/), and [ReactJS](https://reactjs.org/).  
 
 ## Tech Stack
 
@@ -287,7 +291,7 @@ Now that you have completed the tutorial, you should be able to:
 - Understand the basics of NFT standards and smart contract development.
 
 
-(OPTIONAL) Now that you've completed this tutorial, you're ready to...
+ Now that you've completed this tutorial, you're ready to...
 
 - Explore more advanced features of the Flow EVM testnet and build more complex NFT DApps.
 - Learn about other NFT standards like ERC1155 and ERC721.
