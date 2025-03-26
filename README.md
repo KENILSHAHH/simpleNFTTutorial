@@ -34,10 +34,10 @@ After completing this guide, you'll be able to:
 
 | Technology | Description |  |
 |------------|-------------|------|
-| **[Hardhat](https://hardhat.org/)** | Smart contract development environment | <img src="https://hardhat.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhe-head.aed81bd1.svg&w=256&q=75" width="200"/> |
-| **[Solidity](https://soliditylang.org/)** | Ethereum's smart contract programming language | <img src="https://docs.soliditylang.org/en/latest/_static/img/logo.svg" width="200"/> |
-| **[ReactJS](https://reactjs.org/)** | Frontend framework for building UI | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="200"/> |
-| **[Flow EVM Testnet](https://developers.flow.com/evm/about)** | Test environment for deploying Solidity smart contracts | <img src="https://cryptologos.cc/logos/flow-flow-logo.svg?v=026" width="200"/> |
+| **[Hardhat](https://hardhat.org/)** | Smart contract development environment | <img src="https://hardhat.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhe-head.aed81bd1.svg&w=256&q=75" width="100"/> |
+| **[Solidity](https://soliditylang.org/)** | Ethereum's smart contract programming language | <img src="https://docs.soliditylang.org/en/latest/_static/img/logo.svg" width="100"/> |
+| **[ReactJS](https://reactjs.org/)** | Frontend framework for building UI | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="100"/> |
+| **[Flow EVM Testnet](https://developers.flow.com/evm/about)** | Test environment for deploying Solidity smart contracts | <img src="https://cryptologos.cc/logos/flow-flow-logo.svg?v=026" width="100"/> |
 
 
 ## Part 1 - Building ERC721 smart contract using Solidity and Hardhat
