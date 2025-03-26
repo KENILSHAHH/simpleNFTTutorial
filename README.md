@@ -568,6 +568,13 @@ module.exports = {
 };
 ```
 
+*index.css*
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
 
 
