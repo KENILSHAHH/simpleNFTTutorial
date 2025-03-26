@@ -203,7 +203,7 @@ Its time to deploy our contract to the Flow EVM testnet
 
 Before deploying grab some testnet FLOW tokens from the faucet [https://faucet.flow.com/fund-account] 
 
-![Flow Faucet](image.png)
+<img src="image.png" alt="Flow Faucet" width="300">
 
 Run the compilation and deployment script using Hardhat:
 
