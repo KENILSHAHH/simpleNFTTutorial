@@ -205,7 +205,7 @@ Its time to deploy our contract to the Flow EVM testnet
 
 Before deploying grab some testnet FLOW tokens from the faucet - https://faucet.flow.com/fund-account 
 
-<img src="image.png" alt="Flow Faucet" width="400">
+<img src="/Users/kenil/code/simpleNftCOntract/simplenftcontract/image.png" alt="Flow Faucet" width="400">
 
 Run the compilation and deployment script using Hardhat:
 
