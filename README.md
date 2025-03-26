@@ -34,10 +34,10 @@ After completing this guide, you'll be able to:
 
 | Technology | Description |  |
 |------------|-------------|------|
-| **[Hardhat](https://hardhat.org/)** | Smart contract development environment | ![Hardhat](https://hardhat.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhe-head.aed81bd1.svg&w=256&q=75) |
-| **[Solidity](https://soliditylang.org/)** | Ethereum's smart contract programming language | ![Solidity](https://docs.soliditylang.org/en/latest/_static/img/logo.svg) |
-| **[ReactJS](https://reactjs.org/)** | Frontend framework for building UI | ![ReactJS](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg) |
-| **[Flow EVM Testnet](https://developers.flow.com/evm/about)** | Test environment for deploying Solidity smart contracts | ![Flow](https://cryptologos.cc/logos/flow-flow-logo.svg?v=026) |
+| **[Hardhat](https://hardhat.org/)** | Smart contract development environment | <img src="https://hardhat.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhe-head.aed81bd1.svg&w=256&q=75" width="200"/> |
+| **[Solidity](https://soliditylang.org/)** | Ethereum's smart contract programming language | <img src="https://docs.soliditylang.org/en/latest/_static/img/logo.svg" width="200"/> |
+| **[ReactJS](https://reactjs.org/)** | Frontend framework for building UI | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="200"/> |
+| **[Flow EVM Testnet](https://developers.flow.com/evm/about)** | Test environment for deploying Solidity smart contracts | <img src="https://cryptologos.cc/logos/flow-flow-logo.svg?v=026" width="200"/> |
 
 
 ## Part 1 - Building ERC721 smart contract using Solidity and Hardhat
@@ -203,7 +203,7 @@ Its time to deploy our contract to the Flow EVM testnet
 
 Before deploying grab some testnet FLOW tokens from the faucet - https://faucet.flow.com/fund-account 
 
-<img src="image.png" alt="Flow Faucet" width="500">
+<img src="image.png" alt="Flow Faucet" width="400">
 
 Run the compilation and deployment script using Hardhat:
 
