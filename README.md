@@ -12,7 +12,11 @@ keywords:
 
 # Fullstack NFT Dapp on Flow EVM Testnet
 
-Building a Fullstack NFT Dapp on Flow EVM Testnet from scratch using Solidity and Hardhat for Smart Contracts, EthersJS & ReactJS
+Building a Fullstack NFT Dapp on Flow EVM Testnet from scratch using Solidity and Hardhat for Smart Contracts, EthersJS & ReactJS.
+
+## Full video Guide 
+[Watch the Video](https://drive.google.com/file/d/1DpRiI-r2h-ugJIBPQVgWGH_5MGx35I5Y/view?usp=drive_link)
+
 
 # Description
 
