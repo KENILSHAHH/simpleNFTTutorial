@@ -16,7 +16,7 @@ Building a Fullstack NFT Dapp on Flow EVM Testnet from scratch using Solidity an
 
 ## Full video Guide 
  
-<iframe src="https://drive.google.com/file/d/1DpRiI-r2h-ugJIBPQVgWGH_5MGx35I5Y/preview" width="640" height="360" allow="autoplay"></iframe>
+[![YouTube Video](https://img.youtube.com/vi/5XDNZHUeTo4/0.jpg)](https://youtu.be/5XDNZHUeTo4)
 
 
 # Description
